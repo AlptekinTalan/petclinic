@@ -58,7 +58,7 @@ public class OwnerRepositoryInMemoryImpl implements OwnerRepository {
 
 	@Override
 	public List<Owner> findByLastName(String lastName) {
-		return ownersMap.values().stream().filter(o -> o.getFirstName().equals(lastName)).collect(Collectors.toList());
+		return ownersMap.values().stream().filter(o -> o.getLastName().equals(lastName)).collect(Collectors.toList());
 	}
 
 	@Override

@@ -20,7 +20,6 @@ public class PetClinicController {
 		mav.addObject("owners", petClinicService.findOwners());
 		mav.setViewName("owners");
 		return mav;
-
 	}
 
 	@RequestMapping("/pcs")
