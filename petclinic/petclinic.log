@@ -3798,3 +3798,11 @@ org.springframework.web.bind.MissingServletRequestParameterException: Required S
 2019-02-11 22:18:26.598 DEBUG 6164 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Written [Owner [id=4, firstName=Salim, lastName=Sevindik]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@e814aba]
 2019-02-11 22:18:26.598 DEBUG 6164 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
 2019-02-11 22:18:26.598 DEBUG 6164 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2019-02-11 22:18:28.921 DEBUG 6164 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /rest/owner/5
+2019-02-11 22:18:28.922 DEBUG 6164 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public org.springframework.http.ResponseEntity<com.alptekintalan.petclinic.model.Owner> com.alptekintalan.petclinic.web.PetClinicRestController.getOwner(java.lang.Long)]
+2019-02-11 22:18:28.923 DEBUG 6164 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/rest/owner/5]
+2019-02-11 22:18:28.923 DEBUG 6164 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /rest/owner/5
+2019-02-11 22:18:28.923 DEBUG 6164 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public org.springframework.http.ResponseEntity<com.alptekintalan.petclinic.model.Owner> com.alptekintalan.petclinic.web.PetClinicRestController.getOwner(java.lang.Long)]
+2019-02-11 22:18:28.923 DEBUG 6164 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/rest/owner/5] is: -1
+2019-02-11 22:18:28.924 DEBUG 6164 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2019-02-11 22:18:28.924 DEBUG 6164 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Successfully completed request
